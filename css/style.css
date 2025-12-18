@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, "Times New Roman";
+}
+html {
+    background-color: rgb(229, 231, 211);
+}
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px; 
+    margin-top: 100px;
+    color: rgb(179, 156, 89);
+}
+div {
+    background-color: rgb(58, 196, 116);
+    width: 300px;
+    margin: 10px auto;
+    padding: 16px;
+    height: 200px;
+    border: 2px solid rgb(1, 23, 4);
+    border-radius: 20px;
+}
+li {
+    list-style-type:square;
+    margin: 16px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: rgb(180, 83, 35);
+}

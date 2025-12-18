@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, "Times New Roman";
+}
+html {
+    background-color: rgb(229, 231, 211);
+}
+div {
+    background-color: rgb(58, 196, 116);
+    width: 900px;
+    margin: 100px auto;
+    padding: 16px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+img {
+    display: block;
+    margin: 18px auto;
+    
+}
+hr,h3 {
+    margin: 18px 0px;
+}
+li {
+    list-style-position: inside;
+    padding: 3px;
+}
+a {
+    background-color: rgb(58, 196, 116);
+    text-decoration: none;
+    color: black;
+    position:fixed;
+    top: -12px;
+    left: -5px;
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 50%;
+}
+a:hover {
+    color: rgb(180, 83, 35);
+}
